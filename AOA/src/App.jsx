@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import LorePage from "./Components/LorePage";
 import People from "./Components/People";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/lorepage" element={<LorePage />} />
           <Route path="/people" element={<People />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   )
