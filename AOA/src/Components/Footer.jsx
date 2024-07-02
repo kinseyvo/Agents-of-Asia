@@ -7,11 +7,13 @@ export default function Footer() {
     return (
         <div className={style.footerContainer}>
             <div className={style.left}>
+                <button onClick={() => window.location.href = 'mailto:kinseyvo@outlook.com'}>Get in Touch</button>
+            </div>
+            <div className={style.center}>
                 &copy; {currentYear} OverlordKinsey
             </div>
             <div className={style.right}>
                 <a href="https://github.com/kinseyvo/Agents-of-Asia/issues/new" target="_blank" rel="noopener noreferrer">Report a Bug</a>
-                <button onClick={() => window.location.href = 'mailto:kinseyvo@outlook.com'}>Get in Touch</button>
             </div>
         </div>
     );

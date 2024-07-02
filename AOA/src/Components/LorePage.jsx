@@ -1,7 +1,10 @@
+import React from "react";
+import style from "../styles/lore.module.css";
+
 export default function LorePage() {
 
     return (
-        <div>
+        <div className={style.container}>
             Lore Page
         </div>
     );

@@ -1,5 +1,4 @@
 .footerContainer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -10,6 +9,9 @@
     padding: 10px 20px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    height: 50px;
+    position: absolute;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .footerContainer a {
@@ -28,6 +30,7 @@
     color: white;
     cursor: pointer;
     text-decoration: underline;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .footerContainer button:hover {
@@ -35,6 +38,7 @@
 }
 
 .left,
+.center,
 .right {
     display: flex;
     align-items: center;
