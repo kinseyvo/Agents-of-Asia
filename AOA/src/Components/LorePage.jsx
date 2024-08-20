@@ -1,29 +1,35 @@
 import React, { useState } from "react";
+import Slider from "@mui/material/Slider"
 import style from "../styles/lore.module.css";
 
-function DropDownList() {
-    const [selectedValue, setSelectedValue] = useState("Option 1");
-    const handleChange = (event) => {
-        setSelectedValue(event.target.value);
+export default function LorePage() {
+    const [year, setYear] = useState(2024);
+
+    const handleYearChange = (event, newValue) => {
+        setYear(newValue);
     };
 
     return (
-        <select value={selectedValue} onChange={handleChange}>
-            <option value="Option 1">Option 1</option>
-            <option value="Option 2">Option 2</option>
-            <option value="Option 3">Option 3</option>
-        </select>
-    );
-}
-
-export default function LorePage() {
-
-    return (
         <div className={style.container}>
-            <div>
+            <div className={style.title}>
                 Lore Page
             </div>
-            {DropDownList}
+
+            <div className={style.sliderContainer}>
+                <Slider
+                    value={year}
+                    onChange={handleYearChange}
+                    valueLabelDisplay="auto"
+                    min={2001}
+                    max={2024}
+                    step={1}
+                    marks
+                />
+
+                <div>
+                    Selected Year: {year}
+                </div>
+            </div>
         </div>
     );
 };

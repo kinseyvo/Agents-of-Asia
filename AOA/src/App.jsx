@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import LorePage from "./Components/LorePage";
 import People from "./Components/People";
 import Footer from "./Components/Footer";
+// import RangeSlider from "./Components/RangeSlider";
 
 function App() {
 
