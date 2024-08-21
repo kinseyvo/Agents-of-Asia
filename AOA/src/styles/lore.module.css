@@ -1,3 +1,10 @@
+body, html {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     background-image: url('../assets/journey.jpg');
     background-size: cover;
@@ -7,8 +14,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
     overflow: hidden;
@@ -20,13 +26,48 @@
     align-self: flex-start;
     margin-left: 20px;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .sliderContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 250%;
     max-width: 600px;
+    margin-bottom: 0px;
+}
+
+.selectedYear {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.information {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.defaultMessage, .noLoreMessage {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.image {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.event {
+    margin-bottom: 20px;
 }
