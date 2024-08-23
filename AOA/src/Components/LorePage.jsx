@@ -43,7 +43,7 @@ export default function LorePage() {
                                 <div key={index} className={style.event}>
                                     <h2>{event.name}</h2>
                                     <p>{event.description}</p>
-                                    <p>{event.long_descrip}</p>
+                                    <p>{event.date}</p>
                                     <img src={`../assets/${event.image}`} alt={event.name} className={style.image} />
                                 </div>
                             ))}

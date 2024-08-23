@@ -17,7 +17,7 @@ body, html {
     align-items: flex-start;
     color: white;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-    overflow: hidden;
+    overflow: auto;
     box-sizing: border-box;
     padding-top: 40px;
 }
@@ -64,6 +64,7 @@ body, html {
 
 .image {
     width: 100%;
+    height: auto;
     max-width: 300px;
     margin-top: 10px;
 }
