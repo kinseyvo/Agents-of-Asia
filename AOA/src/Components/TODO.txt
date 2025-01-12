@@ -1,0 +1,3 @@
+people.module.css
+- in responsive mode, scrolling bleeds into navbar
+- add space between profile pic and name
