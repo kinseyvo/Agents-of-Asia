@@ -1,3 +1,5 @@
 people.module.css
-- in responsive mode, scrolling bleeds into navbar
-- add space between profile pic and name
+- in responsive mode, scrolling bleeds into navbar (People page)
+- in home page, fix footer to be transparent like Lore page and People page
+- in lore page, fix responsive mode for mobile
+- in lore.js fix image

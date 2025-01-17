@@ -51,6 +51,7 @@ body, html {
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .card:hover {
@@ -71,8 +72,25 @@ body, html {
 
 .socialMedia {
     display: flex;
+    justify-content: center;
     gap: 10px;
     font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.socialMedia a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.socialMedia a:hover {
+    color: #0099ff;
+}
+
+.card label {
+    margin-top: 10px;
+    font-size: 1.2em;
 }
 
 @media (max-width: 768px) {

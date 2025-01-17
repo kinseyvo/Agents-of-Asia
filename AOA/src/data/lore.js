@@ -219,9 +219,9 @@ const lore = [
                 image: "gwe.jpeg"
             },
             {
-                name: "gwe",
-                description: "gwe",
-                date: "sometime in 2024",
+                name: "Ice Skating + KBBQ",
+                description: "Three asians eat ice and Shawn gets banned from rice paper.",
+                date: "January 19, 2024",
                 image: "gwe.jpeg"
             },
             {
@@ -229,7 +229,36 @@ const lore = [
                 description: "gwe",
                 date: "sometime in 2024",
                 image: "gwe.jpeg"
-            }
+            },
+            {
+                name: "_____",
+                description: "_______",
+                date: "sometime in 2024",
+                image: "gwe.jpeg"
+            },
+        ]
+    },
+    {
+        year: 2025,
+        events: [
+            {
+                name: "Starship Escape Room",
+                description: "With Justin as the Gunner, Shawn as the Pilot, and Kinsey as the Engineer, what could possibly go wrong?",
+                date: "January 3, 2025",
+                image: "starship.jpg"
+            },
+            {
+                name: "gwe",
+                description: "gwe",
+                date: "sometime in 2025",
+                image: "gw.jpeg"
+            },
+            {
+                name: "_____",
+                description: "_______",
+                date: "sometime in 2025",
+                image: "gwe.jpeg"
+            },
         ]
     }
 ];
