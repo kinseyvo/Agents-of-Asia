@@ -231,9 +231,15 @@ const lore = [
                 image: "gwe.jpeg"
             },
             {
-                name: "_____",
-                description: "_______",
-                date: "sometime in 2024",
+                name: "Disneyland Day",
+                description: "The goat himself, Justin, brings Shawn and Kinsey into the parks yet again.",
+                date: "June 21, 2024",
+                image: "gwe.jpeg"
+            },
+            {
+                name: "Bower's Museum + Main Place Maill + LEGO Store",
+                description: "The gang, along with An aka Mr. IU Cutout, explore the Bower's Museum and get yapped into a viet club(???). Afterwards, they wander off into Main Place Mall where money is gambled in Round 1 and anime statues. The night ends once Kinsey breaks the bank on a lego set.",
+                date: "August 17, 2024",
                 image: "gwe.jpeg"
             },
         ]
