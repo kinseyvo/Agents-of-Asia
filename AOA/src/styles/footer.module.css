@@ -9,8 +9,9 @@
     padding: 10px 20px;
     box-sizing: border-box;
     height: 50px;
-    position: absolute;
+    position: fixed;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    backdrop-filter: blur(5px);
 }
 
 .footerContainer a {
