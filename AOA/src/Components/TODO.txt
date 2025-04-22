@@ -3,9 +3,4 @@ people.module.css
 
 - in home page, fix footer to be transparent like Lore page and People page
 
-<<<<<<< HEAD
 - in lore page, fix responsive mode for mobile
-=======
-- in lore page, fix responsive mode for mobile
-- in lore.js fix image
->>>>>>> 513c13c5d9758f9dbbdf2c4b21893b06a88c73ce
