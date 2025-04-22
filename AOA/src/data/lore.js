@@ -219,9 +219,9 @@ const lore = [
                 image: "gwe.jpeg"
             },
             {
-                name: "gwe",
-                description: "gwe",
-                date: "sometime in 2024",
+                name: "Ice Skating + KBBQ",
+                description: "Three asians eat ice and Shawn gets banned from rice paper.",
+                date: "January 19, 2024",
                 image: "gwe.jpeg"
             },
             {
@@ -229,7 +229,42 @@ const lore = [
                 description: "gwe",
                 date: "sometime in 2024",
                 image: "gwe.jpeg"
-            }
+            },
+            {
+                name: "Disneyland Day",
+                description: "The goat himself, Justin, brings Shawn and Kinsey into the parks yet again.",
+                date: "June 21, 2024",
+                image: "gwe.jpeg"
+            },
+            {
+                name: "Bower's Museum + Main Place Mall + LEGO Store",
+                description: "The gang, along with An aka Mr. IU Cutout, explore the Bower's Museum and get yapped into a viet club(???). Afterwards, they wander off into Main Place Mall where money is gambled in Round 1 and anime statues. The night ends once Kinsey breaks the bank on a lego set.",
+                date: "August 17, 2024",
+                image: "gwe.jpeg"
+            },
+        ]
+    },
+    {
+        year: 2025,
+        events: [
+            {
+                name: "Starship Escape Room",
+                description: "With Justin as the Gunner, Shawn as the Pilot, and Kinsey as the Engineer, what could possibly go wrong?",
+                date: "January 3, 2025",
+                image: "starship_er.jpg"
+            },
+            {
+                name: "Justin's Birthday in LA",
+                description: "EggSlut + LACMA + Escape Room + Broth Shabu Shabu + Round 1",
+                date: "March 8, 2025",
+                image: "la_escape.jpg"
+            },
+            {
+                name: "_____",
+                description: "_______",
+                date: "sometime in 2025",
+                image: "gwe.jpeg"
+            },
         ]
     }
 ];

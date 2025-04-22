@@ -16,8 +16,10 @@
 
 .navbarName {
     margin-right: auto;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.95);
     text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .hamburgerMenu {
@@ -64,10 +66,12 @@
 }
 
 .navbarLink {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.95);
     text-decoration: none;
     margin-left: 20px;
     margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .showMenu {

@@ -5,7 +5,6 @@ export default function Home() {
 
     return (
         <div className={style.homeContainer}>
-            Home Page
         </div>
     );
 };
